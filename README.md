@@ -27,5 +27,6 @@ cat /proc/cpuinfo | grep "cpu MHz" | sed ':a;N;$!ba;s/\n/ /g' | egrep -o '[[:dig
 }
 ```
 
+
 ![alt text][logo]
 [logo]:  https://github.com/clu83/helper-scripts/blob/master/command_line_charge_status.png "terminal with cpu/battery status"
