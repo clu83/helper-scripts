@@ -13,4 +13,4 @@
 ##### Testing image insertion
 ![alt text][logo]
 
-[logo]: /data/code/code/project/scripts/command_line_charge_status.png "terminal with cpu/battery status"
+[logo]:  https://github.com/clu83/helper-scripts/blob/master/command_line_charge_status.png "terminal with cpu/battery status"
