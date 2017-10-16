@@ -1,6 +1,10 @@
 # Helper scripts
 
-#### Symbolic links to all scripts have been added to my */usr/local/sbin* folder since they all need to be run as *sudo*
+#### Symbolic links to the follwing scripts have been added to my */usr/local/sbin* folder since they all need to be run as *sudo*
+  * ondemand_set
+  * performance_set
+  * powersave_set
+  * restart_bt
 
 ##### The following scripts are used to set the power mode of the cpu
   * ondemand_set
