@@ -1,6 +1,6 @@
 # Helper scripts
 
-#### Symbolic links to the follwing scripts have been added to my */usr/local/sbin* folder since they all need to be run as *sudo*
+#### Symbolic links to the follwing scripts have been added to the */usr/local/sbin* folder since they all need to be run as *sudo*
   * ondemand_set<sup>1</sup>
   * performance_set<sup>1</sup>
   * powersave_set<sup>1</sup>
