@@ -10,7 +10,12 @@
 ##### The following script is used to restart the bluetooth client when no devices are shown in the devices list
   * restart_bt
 
-##### Testing image insertion
+##### To add battery percentage and charging status, as well as CPU frequency see below
+Add the code below to your .zshrc or adapt to your equivalent terminal to get the status bar shown in the image below.
+Change the folder locations to where you've placed the **battery_percent.sh** script.
+
+![alt text](https://github.com/clu83/helper-scripts/blob/master/command_line_charge_status.png "terminal with cpu/battery status")
+
 ```bash
 fpath=('.zsh/functions/' $fpath)
 TMOUT=1
@@ -26,7 +31,3 @@ cat /proc/cpuinfo | grep "cpu MHz" | sed ':a;N;$!ba;s/\n/ /g' | egrep -o '[[:dig
 
 }
 ```
-
-the result of running the above code with **battery_percent.sh** is shown in the image below
-
-![alt text](https://github.com/clu83/helper-scripts/blob/master/command_line_charge_status.png "terminal with cpu/battery status")
