@@ -1,4 +1,8 @@
 # Helper scripts
+#### System Details
+  * Asus EEEPC 1215b
+  * Debian
+  * Terminal: ZSH
 
 #### Symbolic links to the follwing scripts have been added to the */usr/local/sbin* folder since they all need to be run as *sudo*
   * ondemand_set<sup>1</sup>
