@@ -13,9 +13,10 @@
 ##### To add battery percentage and charging status, as well as CPU frequency see below
 Add the code below to your .zshrc or adapt to your equivalent terminal to get the status bar shown in the image below, the code updates the status every 1s.
 
+![alt text](https://github.com/clu83/helper-scripts/blob/master/command_line_charge_status.png "terminal with cpu/battery status")
+
 Change the folder locations to where you've placed the **battery_percent.sh** script.
 
-![alt text](https://github.com/clu83/helper-scripts/blob/master/command_line_charge_status.png "terminal with cpu/battery status")
 
 ```bash
 fpath=('.zsh/functions/' $fpath)
