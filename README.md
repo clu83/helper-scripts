@@ -27,6 +27,6 @@ cat /proc/cpuinfo | grep "cpu MHz" | sed ':a;N;$!ba;s/\n/ /g' | egrep -o '[[:dig
 }
 ```
 
-
+the result of running the above code with **battery_percent.sh** is shown in the image below
 ![alt text][logo]
 [logo]:  https://github.com/clu83/helper-scripts/blob/master/command_line_charge_status.png "terminal with cpu/battery status"
