@@ -9,3 +9,5 @@
 
 ##### The following script is used to restart the bluetooth client when no devices are shown in the devices list
   * restart_bt
+
+[logo]: /data/code/code/project/scripts/command_line_charge_status.png "terminal with cpu/battery status"
