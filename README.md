@@ -1,7 +1,7 @@
 # Helper scripts
 #### System Details
   * Hardware: Asus EEEPC 1215b
-  * OS: Debian GNU/Linux
+  * OS: Debian GNU/Linux buster/sid
   * Terminal: ZSH
 
 #### Symbolic links to the follwing scripts have been added to the */usr/local/sbin* folder since they all need to be run as *sudo*
