@@ -11,7 +11,7 @@
   * restart_bt
 
 ##### To add battery percentage and charging status, as well as CPU frequency see below
-Add the code below to your **__.zshrc__** or adapt to your equivalent terminal to get the status bar shown in the image below, the code updates the status every 1s.
+Add the code below to your **_.zshrc_** or adapt to your equivalent terminal to get the status bar shown in the image below, the code updates the status every 1s.
 
 ![alt text](https://github.com/clu83/helper-scripts/blob/master/command_line_charge_status.png "terminal with cpu/battery status")
 
