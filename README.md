@@ -23,7 +23,7 @@ TMOUT=1
 TRAPALRM() {
 	RPROMPT="$(~/.zsh/functions/battery_percent)"
 
-cat /proc/cpuinfo | grep "cpu MHz" | sed ':a;N;$!ba;s/\n/ /g' | egrep -o '[[:digit:]]{1,4}\.[0]{1}' | sed ':a;N;$!ba;s/\n/ /g' | read CPU1 CPU2
+	cat /proc/cpuinfo | grep "cpu MHz" | sed ':a;N;$!ba;s/\n/ /g' | egrep -o '[[:digit:]]{1,4}\.[0]{1}' | sed ':a;N;$!ba;s/\n/ /g' | read CPU1 CPU2
 
 	RPROMPT+=" CPU:%B%F{blue}$CPU1/$CPU2%f%b / %*"
 	
