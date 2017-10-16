@@ -1,7 +1,7 @@
 # Helper scripts
 #### System Details
-  * Asus EEEPC 1215b
-  * Debian
+  * Hardware: Asus EEEPC 1215b
+  * OS: Debian GNU/Linux
   * Terminal: ZSH
 
 #### Symbolic links to the follwing scripts have been added to the */usr/local/sbin* folder since they all need to be run as *sudo*
