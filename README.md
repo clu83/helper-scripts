@@ -11,6 +11,21 @@
   * restart_bt
 
 ##### Testing image insertion
-![alt text][logo]
+```bash
+fpath=('.zsh/functions/' $fpath)
+TMOUT=1
 
+TRAPALRM() {
+	RPROMPT="$(~/.zsh/functions/battery_percent)"
+
+cat /proc/cpuinfo | grep "cpu MHz" | sed ':a;N;$!ba;s/\n/ /g' | egrep -o '[[:digit:]]{1,4}\.[0]{1}' | sed ':a;N;$!ba;s/\n/ /g' | read CPU1 CPU2
+
+	RPROMPT+=" CPU:%B%F{blue}$CPU1/$CPU2%f%b / %*"
+	
+	zle reset-prompt
+
+}
+```
+
+![alt text][logo]
 [logo]:  https://github.com/clu83/helper-scripts/blob/master/command_line_charge_status.png "terminal with cpu/battery status"
