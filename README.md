@@ -1,4 +1,4 @@
-# helper-scripts
+# Helper scripts
 
 #### Symbolic links to all scripts have been added to my */usr/local/sbin* folder since they all need to be run as *sudo*
 
